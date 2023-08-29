@@ -25,3 +25,15 @@ window.onload = () => {
     }
     
 }
+const button = document.querySelector('#button');
+const menu = document.querySelector('.wrapper');
+const a = document.querySelectorAll('a');
+button.addEventListener('click', function() {
+    menu.classList.toggle('drop');
+})
+a.forEach( (e) => {
+
+    e.addEventListener('click', function() {
+        menu.classList.toggle('drop');
+    })
+});
