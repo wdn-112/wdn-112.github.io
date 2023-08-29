@@ -25,9 +25,3 @@ window.onload = () => {
     }
     
 }
-
-const button = document.querySelector('.button');
-button.addEventListener('click', function() {
-    const btnimg = document.querySelector('.fa-solid');
-    console.log(btnimg);
-})
