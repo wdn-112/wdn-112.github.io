@@ -19,7 +19,8 @@ html {
     min-height:100vh; 
 }
 .main {
-min-height:100vh; 
+ margin-top: 100px;
+ min-height: 80vh;
  display:flex;
  justify-content: space-evenly;
  align-items: center;
@@ -42,6 +43,8 @@ min-height:100vh;
 .main p {
     color: hsl(0, 0%,80%);
 }
+
+
 
 .wrapper {
     display: flex;
